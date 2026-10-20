@@ -51,16 +51,40 @@ table, th, td {
 }
 
 th {
-  background-color: lightgray;
+  background-color: #003870;
+  color: white;
+  text-align: center;
+}
+
+td {
+  text-align: left;
 }
 
 table {
   width: 100%;
 }
 
-form {
-  width:100%;
-  cursor: pointer;
-  padding: 14px;
-  margin: 8px 0;
+#devoform {
+  align-items: left;
+  margin: 20px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100;
+}
+
+input {
+  
+  border-radius: 20px;
+  margin: 10px;
+}
+
+label {
+  margin: 10px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
 }
