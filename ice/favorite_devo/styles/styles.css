@@ -44,6 +44,7 @@ body {
   padding: 40px;
   box-shadow: 5px 5px 0px black;
   min-height: 400px;
+  border-radius: 20px;
 }
 
 table, th, td {
