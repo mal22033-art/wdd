@@ -1,1 +1,83 @@
 /* Add your CSS here to style your halloween page */
+body {
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    background-color: #c58104;
+    font-family: "Brush Script MT", cursive;
+    border: 2px red;
+    border-style: groove;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+}
+
+img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/5;
+   
+}
+
+section {
+    width: auto;
+    background-color: #c58104;
+    padding: 5px;
+    margin: 20px;
+    border: 2px red;
+    border-radius: 25px;
+    border-style: groove;
+}
+
+#p1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#p2 {
+    grid-column: 1/2;
+    grid-row:3/4
+}
+
+#p3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40pt;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    color: purple;
+}
+
+h2 {
+    font-family: "Brush Script MT",cursive;
+}
+
+footer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    color: #c58104;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+
+}
