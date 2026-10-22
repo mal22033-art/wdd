@@ -31,9 +31,9 @@ section {
     background-color: #c58104;
     padding: 5px;
     margin: 20px;
-    border: 2px red;
+    border: 5px rgba(171, 84, 218, 0.767) solid;
     border-radius: 25px;
-    border-style: groove;
+    position: relative;
 }
 
 #p1 {
@@ -60,11 +60,21 @@ h1 {
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
-    color: purple;
+    color: rgba(171, 84, 218, 0.767);
+    height: 30px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-family: "Brush Script MT",cursive;
+    font-size: 30pt;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
 }
 
 footer {
@@ -78,6 +88,22 @@ footer {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px;
-
+    grid-template-rows: 1fr;
 }
+
+h1 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+h1:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}   
