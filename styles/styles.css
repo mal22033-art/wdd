@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo{
+    width:80px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 100%;;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: pink;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    height: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+#dandyimg {
+    width: 100%;
+}
+
+#mainp {
+    background-color: gray;
+    width: 100%;
+    padding: 10px;
+}
