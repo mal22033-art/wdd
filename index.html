@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Coustard:wght@400;900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Page</title>
@@ -23,21 +27,114 @@
 
     <main>
         <img id="dandyimg" src="images/dandelion.jpg" alt="Dandelions">
+        <h1>WDD 130 Web Fundamentals</h1>
         <div id="mainp">
-            <h2>Cool Heading Here</h2>
-            <p>More cool text here</p>
+            <h2>The Project</h2>
+            <p>This webpage showcases the different assignments I completed in my Web Fundamentals class. It highlights my progress and understanding of essential web development skills, including HTML structure, CSS styling, page layout, color, typography, and responsive design. Each assignment demonstrates a different concept or technique I learned throughout the course and reflects my growth as I developed more confidence in creating organized, functional, and visually appealing webpages.</p>
         </div>
-        <div>
-            <img src="images/palmtree.png" alt="A picture of me">
-            <p><a href="#">some cool text about me</a></p>
+        <div id="contact">
+            <img id="palmtree" src="images/palmtree.png" alt="A picture of me">
+            <p><a href="#">Click Here to Learn More About Me! I'm a junior-level Web and Graphic Designer, looking to make a difference in this world!</a></p>
+        </div>
+        </div>
+        <div id="table">
+            <h3>My Schedule:</h3>
+            <table>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                    <td>10:00am</td>
+                </tr>
+                <tr>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                    <td>11:00am</td>
+                </tr>
+                <tr>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                    <td>1:00pm</td>
+                </tr>
+                <tr>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                    <td>2:00pm</td>
+                </tr>
+                <tr>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                    <td>3:00pm</td>
+                </tr>
+                <tr>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                    <td>4:00pm</td>
+                </tr>
+            </table>
+        </div>
+        <div id="form">
+            <h3>Schedule a time to reach me!</h3>
+            <p> If you'd like to reach me for any of these reasons, please fill out the form below and I will get back to you as soon as possible:</p>
+            <ul>
+                <li>Questions about my services</li>
+                <li>Collaboration opportunities</li>
+                <li>General inquiries</li>
+            </ul>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="msg">Reason:</label>
+                <input type="text" id="msg" name="msg">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="date">Preferred date:</label>
+                <input type="date" id="date" name="date">
+                <label for="time">Preferred time:</label>
+                <input type="time" id="time" name="time">
+                <button type="submit">Submit</button>
+            </form>
+            
         </div>
     </main>
 
     <footer>
-        <p>WDD-130 &copy; 2026 - Briton Malcolm</p>
-                <p><a href="wwr/index.html">WWR</a></p>
-                <p><a href="#">About Me</a></p>
-                <div class="social">
+        <p id="footerp">WDD-130 &copy; 2026 - Briton Malcolm<br><a href="wwr/index.html">WWR</a><br><a href="#">About Me</a></p>
+                <section id="social">
                     <a href="https://facebook.com" target="_blank">
                         <img src="images/facebook.png" alt="fb icon">
                     </a>
@@ -47,6 +144,7 @@
                     <a href="https://instagram.com" target="_blank">
                         <img src="images/instagram.png" alt="instagram icon">
                     </a>
+                </section>
     </footer>
 </body>
 </html>
