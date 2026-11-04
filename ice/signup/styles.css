@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(120, 96, 64);
+    justify-content: center;
+    display: flex;
+}
+
+#formContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 400px;
+    border: 6px solid darkblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+#jesusFeeds5000 {
+    width: 400px;
+    grid-column: 1/5;
+    position: absolute;
+    z-index: 0;
+}s
+
+#closeBtn {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+h2 {
+    position: absolute;
+    z-index: 1;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#myForm {
+    position: absolute;
+    z-index: 1;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+
+#imageContainer img {
+    width: 80px;
+}
