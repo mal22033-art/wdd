@@ -64,11 +64,11 @@ main {
 }
 
 h1 {
-    grid-column: 6/10;
+    grid-column: 5/10;
     grid-row: 3/4;
     font-family: "Space Grotesk";
     color: var(--headingcolor);
-    margin-left: 30px;
+    margin-left: 38px;
 }
 
 #dandyimg {
