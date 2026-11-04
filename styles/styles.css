@@ -230,6 +230,111 @@ table th, table td {
     font-family: "Space Grotesk";
 }
 
+/* ice portal page */
+h1 {
+    text-align: center;
+    color: var(--headingcolor);
+}
+
+#ice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#prophets_cards {
+    background-color: var(--contentcolor);
+}
+
+#prophets_cards a {
+    text-decoration: none;
+}
+
+#prophets_cards a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#favoritedevo {
+    background-color: var(--contentcolor);
+}
+
+#favoritedevo a {
+    text-decoration: none;
+}
+
+#favoritedevo a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#halloween {
+    background-color: var(--contentcolor);
+}
+
+#halloween a {
+    text-decoration: none;
+}
+
+#halloween a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#grid_flags {
+    background-color: var(--contentcolor);
+}
+
+#grid_flags a {
+    text-decoration: none;
+}
+
+#grid_flags a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#positioning {
+    background-color: var(--contentcolor);
+}
+
+#positioning a {
+    text-decoration: none;
+}
+
+#positioning a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#gallery {
+    background-color: var(--contentcolor);
+}
+
+#gallery a {
+    text-decoration: none;
+}
+
+#gallery a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+#signup {
+    background-color: var(--contentcolor);
+}
+
+#signup a {
+    text-decoration: none;
+}
+
+#signup a:hover {
+    text-decoration: underline;
+    color: var(--ptextcolor);
+}
+
+
+
 footer {
     margin-top: 50px;
     display: grid;
