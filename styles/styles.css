@@ -63,7 +63,7 @@ main {
   
 }
 
-h1 {
+#portalheading {
     grid-column: 5/10;
     grid-row: 3/4;
     font-family: "Space Grotesk";
@@ -232,18 +232,38 @@ table th, table td {
 
 /* ice portal page */
 h1 {
+    grid-column: 1 / -1;
+    grid-row: 1;
     text-align: center;
     color: var(--headingcolor);
+    margin-top: 30px;
+}
+
+main > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    text-align: center;
+    margin-top: 5px;
 }
 
 #ice {
+    grid-column: 1 / -1;
+    grid-row: 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    width: 100%;
+    justify-items: center;
 }
 
 #prophets_cards {
     background-color: var(--contentcolor);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #prophets_cards a {
@@ -257,6 +277,12 @@ h1 {
 
 #favoritedevo {
     background-color: var(--contentcolor);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #favoritedevo a {
@@ -270,6 +296,12 @@ h1 {
 
 #halloween {
     background-color: var(--contentcolor);
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #halloween a {
@@ -283,6 +315,12 @@ h1 {
 
 #grid_flags {
     background-color: var(--contentcolor);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #grid_flags a {
@@ -296,6 +334,12 @@ h1 {
 
 #positioning {
     background-color: var(--contentcolor);
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #positioning a {
@@ -309,6 +353,12 @@ h1 {
 
 #gallery {
     background-color: var(--contentcolor);
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #gallery a {
@@ -322,6 +372,12 @@ h1 {
 
 #signup {
     background-color: var(--contentcolor);
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    box-sizing: border-box;
 }
 
 #signup a {
@@ -358,4 +414,10 @@ footer {
 
 #social a {
     text-decoration: none;
+}
+
+#ice-main > p,
+#ice-main > h1,
+#ice-main #ice {
+    grid-column: 1 / -1;
 }
