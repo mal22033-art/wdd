@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    --primarycolor: #03045E;
+    --secondarycolor: #0077B6;
+    --accentcolor1: #48CAE4;
+    --accentcolor2: #CAF0F8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+#homepage {
+
+}
+
+#memespage {
+
+}
+
+#gifspage {
+
+}
