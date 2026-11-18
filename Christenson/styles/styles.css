@@ -14,38 +14,118 @@
 }
 
 body {
-    margin: 0;
-    width: 100%;
-    --primarycolor: #03045E;
-    --secondarycolor: #0077B6;
-    --accentcolor1: #48CAE4;
-    --accentcolor2: #CAF0F8;
+  margin: 0;
+  width: 100%;
+  --primarycolor: #03045E;
+  --secondarycolor: #0077B6;
+  --accentcolor1: #48CAE4;
+  --accentcolor2: #CAF0F8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+#logo {
+  width: 120px;
+  padding-top: 10px;
+  padding-left: 38px;
+  padding-bottom: 10px;
 }
 
 header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
 
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: "montserrat-700", sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    
 }
 
 footer {
-
+  width: 100%;
 }
 
 #homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
+#aboutcontent {
+  padding: 20px;
+  text-align: center;
+}
+
+#homepagememe {
+  
+}
+
+#homepagegif {
+  
 }
 
 #memespage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
+#meme1 {
+  
+}
+
+#meme2 {
+  
+}
+
+#meme3 {
+  
+}
+
+#meme4 {
+  
 }
 
 #gifspage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
+#gif1 {
+  
+}
+
+#gif2 {
+  
+}
+
+#gif3 {
+  
+}
+
+#gif4 {
+  
 }
